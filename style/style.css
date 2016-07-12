@@ -1,0 +1,33 @@
+.home{
+  
+    background-image:url("../images/Collage.jpg");
+    background-size:contain;
+    background-repeat:repeat;
+    color:Cyan;
+}
+
+
+
+p{
+      font-family:Georgia;
+      font-size:25px;
+      color:Cyan;
+      text-align:center;
+}
+
+
+
+
+.btn1{
+      background-color:Cyan;
+      border:none;
+      color:white;
+}
+
+        
+.btn2{
+              background-color:Cyan;
+              border:none;
+              color:white;
+        }
+  

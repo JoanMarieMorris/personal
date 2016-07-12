@@ -1,0 +1,14 @@
+p{
+    font-family:Georgia;
+    font-size:25px;
+    color:Cyan;
+    text-align:center;
+}
+
+.favorites{ background-image:url("../images/befunkycollage.jpg");
+     background-size:contain;
+     background-repeat:repeat;
+     width:80%;
+     height:80%;
+    
+}
