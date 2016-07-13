@@ -22,6 +22,7 @@ p{
       background-color:Cyan;
       border:none;
       color:white;
+      cursor: pointer;
 }
 
         
@@ -29,5 +30,38 @@ p{
               background-color:Cyan;
               border:none;
               color:white;
+              cursor: pointer;
         }
-  
+.favorites{ background-image:url("../images/befunkycollage.jpg");
+     background-size:contain;
+     background-repeat:repeat;
+     width:80%;
+     height:80%;
+    
+}
+
+p{
+    font-family:Georgia;
+    font-size:25px;
+    color:Cyan;
+    text-align:center;
+}
+
+
+
+.btn3{
+    background-color:Cyan;
+    border:none;
+    color:white;
+}
+
+
+
+.box{ background-color:Black;
+border:dotted;
+color:white;
+     margin:auto;
+     width:50%;
+   opacity:0.8;
+    
+}
