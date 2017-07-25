@@ -1,67 +1,190 @@
-.home{
-  
-    background-image:url("../images/Collage.jpg");
-    background-size:contain;
-    background-repeat:repeat;
-    color:Cyan;
-}
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
+body{
+      width:100%;
+      height:100%;
+      margin:0;
+      bottom:0;
+      position:relative;
+}
 
 
 p{
       font-family:Georgia;
       font-size:25px;
-      color:Cyan;
       text-align:center;
 }
 
 
+/*4.hide the "MENU" button in desktop view*/
 
-
-.btn1{
-      background-color:Cyan;
-      border:none;
-      color:white;
-      cursor: pointer;
+.nav-toggle{
+  display:inline;
+  border-radius:.4em;
+  position:fixed;
+  z-index:100;
 }
 
-        
-.btn2{
-              background-color:Cyan;
-              border:none;
-              color:white;
-              cursor: pointer;
-        }
-.favorites{ background-image:url("../images/befunkycollage.jpg");
+/* 5. style nav-item in desktop view*/
+
+.nav-item{
+  display:inline-block; 
+  margin-right:5px;
+}
+
+/* 6. Add media query to trigger mobile styles*/
+
+@media (max-width: 400px) {
+  .nav-toggle {
+    display:block; /* display menu button*/
+  }
+  
+  .nav-item{
+    display:block; /*6b. display menu items in a column */
+  }
+  
+    .mobile-nav-hidden{
+    display:none; /* 6c. hide nav items (add utility class to <ul>) */
+  }
+  
+  
+}
+
+.banner{
+  width:50%;
+  background-size:contain;
+}
+
+h1 {
+      text-align:center;
+}
+
+
+.favorites{ 
+ background-image:url("../images/glitter.gif");
+ background-size:contain;
+     width:100%;
+     height:100%;
+     clear:both;
+     margin:0;
+     position:relative;
+    
+}
+
+.experience{  
+      background-color:black;
+     width:100%;
+     height:100%;
+     margin:0;
+     color:white;
+}
+
+
+.home{ background-image:url("../images/jojo.png");
      background-size:contain;
      background-repeat:repeat;
-     width:80%;
-     height:80%;
+     width:100%;
+     height:100%;
+     margin:0;
     
+}
+
+
+.navbar{
+      background-image:url("../images/black.jpg");
+  list-style-type:none;
+  padding:3%;
+  text-align:center;
+   margin:0%;
+  /*position:fixed;*/
+  width:100%;
+  z-index:1;
+  font-size:2.5em;
+ padding-top:-2em;
+ height:10%;
+}
+
+.navbar li{
+  display:inline-block;
+padding-left: 2em;
+padding-right: 1em;
+color:#00FFFF;
+  font-family: 'Abril Fatface',     cursive;
+  margin-left:20px;
+}
+
+.navbar a{
+  text-decoration:none;
+   padding:3%;
+  float:left;
+  position:relative;
+  margin:5% 0% 0% 0%; 
+  font-size:100%;
+  color:cyan;
+}
+
+.navbar a:hover{
+  color:white;
+}
+}
+.h2{
+      font-size:2em;
+}
+
+footer {
+      background-image:url("../images/black.jpg");
+  position:absolute;
+  /*bottom:0;*/
+  width:100%;
+  height:15%;
+  text-align:center;
+  margin-top: 20px;
+
+}
+
+.fa-twitter-square{
+      color:#1DA1F3;
+}
+
+.fa-instagram {
+      color:#A92BB9;
+}
+
+.fa-snapchat-square {
+      color:yellow;
+}
+
+.fa-envelope{
+      color:#D54B3E;
 }
 
 p{
     font-family:Georgia;
     font-size:25px;
-    color:Cyan;
+    color:white;
     text-align:center;
 }
 
-
-
-.btn3{
-    background-color:Cyan;
-    border:none;
-    color:white;
+li{
+      list-style-position: inside;
 }
 
+.container{
+      padding-top:15%;
+      width:50%;  
+      margin:auto;
+}
 
-
-.box{ background-color:Black;
-border:dotted;
+.box{ 
+      background-color:rgba(0,0,0,0.5);
 color:white;
-     margin:auto;
-     width:50%;
-   opacity:0.8;
-    
+width:100%;
+   text-align:center;
+     font-family: 'Abril Fatface',     cursive;
+}
+
+.banner1{
+      width:80%;
+      display:block;
 }
